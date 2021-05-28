@@ -29,7 +29,6 @@ $users = [
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/users.css">
-    <link rel="stylesheet" href="css/nav.css">
     <title>PHP</title>
 <head>
 <body>
