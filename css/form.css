@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+form {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    width: 100%;
+}
+
+div{
+    height: 37px;
+    width: 185px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit {
+    width: 10%
+}
