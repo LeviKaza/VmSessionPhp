@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php require_once 'template/nav.php'?>
-        <form action="">
+        <form action="controllers/session.php" method="POST">
             <div>
                 <label for="name">Nom d'utilisateur :</label>
                 <input type="text" class="name" name="name">
