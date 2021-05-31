@@ -1,10 +1,6 @@
 <?php
 
-//session_start();
-
 $_SESSION['name'] = $_POST['name'];
-
-//var_dump($_SESSION);
 
 ?>
 
@@ -12,6 +8,7 @@ $_SESSION['name'] = $_POST['name'];
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/formSubmit.css">
     </head>
     <body>
         <?php require_once 'template/nav.php' ?>

@@ -1,15 +1,5 @@
 <?php
 
-// $name = ""
-// $age = 00;
-// $array = ["", 00, ""]
-// $obj = {}
-// $bool = true;//false
-// $null = null;
-
-// $calc = 45 + 56;
-// echo $calc . '<br>';
-
 $users = [
     ["name" => "marc",
     "color" => "vert",

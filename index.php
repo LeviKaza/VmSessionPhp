@@ -1,10 +1,3 @@
-<?php
-
-//session_start();
-//var_dump($_SESSION);
-
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
