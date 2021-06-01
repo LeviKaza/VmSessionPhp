@@ -1,5 +1,6 @@
 body {
     height: 100vh;
+    background-color: lightgray;
 }
 
 form {
@@ -15,4 +16,8 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.error {
+    color: red;
 }

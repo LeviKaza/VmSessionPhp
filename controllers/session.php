@@ -6,15 +6,14 @@ $registred = [
         "password" => "JeanCorentin"
     ],
     [
-        "name" => "Levi",
-        "password" => "LeviKazama"
+        "name" => "Romuald",
+        "password" => "F*ckthepwd123"
     ],
     [
         "name" => "Jon",
         "password" => "altair"
     ]
 ];
-
 
 session_start();
 foreach($registred as $value) {
@@ -23,9 +22,10 @@ foreach($registred as $value) {
             $_SESSION['name'] = $_POST['name'];
             $_SESSION['password'] = $_POST['password'];
             header('Location: /');
+            break;
         }
     }
     else {
-        header('Location: ../connexion.php');
+        header('Location: ../connexion.php?fail');
     }
 }
