@@ -19,7 +19,7 @@ $users = [
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/users.css">
-    <title>PHP</title>
+    <link rel="stylesheet" href="css/nav.css">
 <head>
 <body>
     <?php require_once 'template/nav.php'?>
