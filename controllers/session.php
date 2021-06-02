@@ -1,19 +1,6 @@
 <?php
 
-$registred = [
-    [
-        "name" => "Jean",
-        "password" => "JeanCorentin"
-    ],
-    [
-        "name" => "Romuald",
-        "password" => "F*ckthepwd123"
-    ],
-    [
-        "name" => "Jon",
-        "password" => "altair"
-    ]
-];
+require 'registred.php';
 
 session_start();
 foreach($registred as $value) {

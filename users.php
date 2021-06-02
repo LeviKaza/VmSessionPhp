@@ -1,16 +1,6 @@
 <?php
 
-$users = [
-    ["name" => "marc",
-    "color" => "vert",
-    "age" => 34],
-    ["name" => "paulette",
-    "color" => "bleu",
-    "age" => 90],
-    ["name" => "eskarina",
-    "color" => "octarine",
-    "age" => 13]
-];
+require 'controllers/registred.php';
 
 ?>
 
@@ -32,7 +22,7 @@ $users = [
                     <th>Age</th>
                 </tr>
             </thead>
-            <?php foreach ($users as $user): ?>
+            <?php foreach ($registred as $user): ?>
             <tbody>
                 <tr>
                     <td><?= $user["name"] ?></td>
