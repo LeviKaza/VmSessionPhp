@@ -24,8 +24,7 @@ require 'controllers/registred.php';
                     <label for="password">Mot de passe :</label>
                     <div class="pwd">
                         <input type="password" name="password" id="password" required>
-                        <input type="checkbox" name="view" id="view" class="view" onclick="visibility()">
-                        <label for="view"></label>
+                        <img src="img/beholder.png" alt="beholder" onclick="visibility()">
                         <p>Afficher</p>
                     </div>
                 </div>
@@ -60,8 +59,7 @@ require 'controllers/registred.php';
                     <label for="password">Mot de passe :</label>
                     <div class="pwd">
                         <input type="password" class="password" id="password" name="password" required>
-                        <input type="checkbox" id="view" class="view" onclick="visibility()">
-                        <label for="view"></label>
+                        <img src="img/beholder.png" alt="beholder" onclick="visibility()">
                         <p>Afficher</p>
                     </div>
                 </div>
