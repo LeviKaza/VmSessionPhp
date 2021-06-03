@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
         <?php require_once 'template/nav.php' ?>

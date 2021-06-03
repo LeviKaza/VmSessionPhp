@@ -13,6 +13,7 @@ form {
 }
 
 div {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,4 +21,23 @@ div {
 
 .error {
     color: red;
+}
+
+.pwd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.view {
+    height: 19px;
+    width: 19px;
+}
+
+.inscription {
+    color: black;
+}
+
+input[checkbox]:checked:before {
+    background-image: url("../img/beholder.png");
 }

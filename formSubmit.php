@@ -1,6 +1,7 @@
 <?php
 
-$_SESSION['name'] = $_POST['name'];
+require 'controllers/registred.php';
+array_push($registred, $_POST);
 
 ?>
 
@@ -15,6 +16,6 @@ $_SESSION['name'] = $_POST['name'];
         <?php require_once 'template/nav.php' ?>
         <p>Bienvenue <?= $_POST['name']; ?>,</p>
         <br>
-        <p>Nous avons envoyer un mail de vérification à <?= $_POST["mail"]; ?>.</p>
+        <p>Nous avons envoyer un mail de vérification à <?= $_POST["email"]; ?>.</p>
     </body>
 </html>
