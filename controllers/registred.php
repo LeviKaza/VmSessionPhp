@@ -9,7 +9,7 @@ $registred = [
     ],
     [
         "name" => "Romuald",
-        "password" => "F*ckthepwd123",
+        "password" => hash("sha256", "F*ckthepwd123", $binary = false),
         "color" => "Vert",
         "age" => "12"
     ],

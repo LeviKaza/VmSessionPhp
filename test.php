@@ -13,8 +13,8 @@ require_once 'template/nav.php';
     <body>
         <p><?= date("d/m/Y") ?></p>
         <p><?= date("H:i:s") ?></p>
-        <p><?= hash("md5", "F*ckthepwd123", $binary = false ) ?></p>
-        <p><?= hash("md5", "JeanCorentin", $binary = false)?></p>
-        <p><?= hash("md5", "altair", $binary = false) ?></p>
+        <p><?= hash("sha256", "F*ckthepwd123", $binary = false ) ?></p>
+        <p><?= hash("sha256", "JeanCorentin", $binary = false)?></p>
+        <p><?= hash("sha256", "altair", $binary = false) ?></p>
     </body>
 </html>

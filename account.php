@@ -11,10 +11,7 @@
             <?php if (isset($_SESSION['name'])): ?>
                 <p>Bonjour!</p>
             <?php else : ?>
-                <div class="error">
-                    <p>Vous devez être connecté</p>
-                    <p>pour acceder à cette page.</p>
-                </div>
+                <?php require 'template/unothaurised.php' ?>
             <?php endif ?>
         </div>
     </body>
